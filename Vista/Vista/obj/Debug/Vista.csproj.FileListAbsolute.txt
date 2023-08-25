@@ -1,0 +1,11 @@
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\bin\Debug\Vista.exe.config
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\bin\Debug\Vista.exe
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\bin\Debug\Vista.pdb
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vista.csproj.AssemblyReference.cache
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vista.csproj.SuggestedBindingRedirects.cache
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vista.Properties.Resources.resources
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vista.csproj.GenerateResource.cache
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vista.exe
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vista.pdb
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vista.frmAM.resources
