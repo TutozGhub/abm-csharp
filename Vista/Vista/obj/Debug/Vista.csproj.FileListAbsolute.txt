@@ -9,3 +9,11 @@ D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vist
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vista.exe
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vista.pdb
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vista.frmAM.resources
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\bin\Debug\Comun.dll
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\bin\Debug\Negocios.dll
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\bin\Debug\Datos.dll
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\bin\Debug\Comun.pdb
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\bin\Debug\Negocios.pdb
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\bin\Debug\Datos.pdb
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vista.frmConsulta.resources
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Vista\obj\Debug\Vista.csproj.CopyComplete

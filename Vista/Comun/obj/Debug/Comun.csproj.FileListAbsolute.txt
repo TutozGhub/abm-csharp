@@ -1,0 +1,6 @@
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Comun\bin\Debug\Comun.dll
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Comun\bin\Debug\Comun.pdb
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Comun\obj\Debug\Comun.csproj.AssemblyReference.cache
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Comun\obj\Debug\Comun.dll
+D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Comun\obj\Debug\Comun.pdb

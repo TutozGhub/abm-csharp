@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Negocios
+namespace Comun
 {
-    public class Class1
+    public class comboCache
     {
+        public int id { get; set; }
+        public string name { get; set; }
     }
 }

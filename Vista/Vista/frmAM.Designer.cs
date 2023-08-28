@@ -54,6 +54,7 @@
             // 
             // cmbTalle
             // 
+            this.cmbTalle.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTalle.FormattingEnabled = true;
             this.cmbTalle.Location = new System.Drawing.Point(50, 137);
             this.cmbTalle.Name = "cmbTalle";
@@ -76,6 +77,7 @@
             // 
             // cmbMarca
             // 
+            this.cmbMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMarca.FormattingEnabled = true;
             this.cmbMarca.Location = new System.Drawing.Point(50, 177);
             this.cmbMarca.Name = "cmbMarca";
@@ -91,6 +93,7 @@
             // 
             // cmbTipo
             // 
+            this.cmbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTipo.FormattingEnabled = true;
             this.cmbTipo.Location = new System.Drawing.Point(50, 58);
             this.cmbTipo.Name = "cmbTipo";
@@ -162,9 +165,9 @@
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(166, 346);
+            this.btnAceptar.Location = new System.Drawing.Point(178, 344);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(93, 23);
+            this.btnAceptar.Size = new System.Drawing.Size(93, 31);
             this.btnAceptar.TabIndex = 15;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
