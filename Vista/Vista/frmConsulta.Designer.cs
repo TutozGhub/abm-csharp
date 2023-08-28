@@ -55,6 +55,7 @@
             this.dtgProductos.Name = "dtgProductos";
             this.dtgProductos.Size = new System.Drawing.Size(728, 240);
             this.dtgProductos.TabIndex = 0;
+            this.dtgProductos.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgProductos_CellEnter);
             // 
             // btnAgregar
             // 
@@ -84,6 +85,7 @@
             this.btnEliminar.TabIndex = 3;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // rdbActivos
             // 
@@ -96,6 +98,7 @@
             this.rdbActivos.TabStop = true;
             this.rdbActivos.Text = "Activos";
             this.rdbActivos.UseVisualStyleBackColor = true;
+            this.rdbActivos.CheckedChanged += new System.EventHandler(this.rdbActivos_CheckedChanged);
             // 
             // rdbInactivos
             // 
@@ -106,6 +109,7 @@
             this.rdbInactivos.TabIndex = 5;
             this.rdbInactivos.Text = "Inactivos";
             this.rdbInactivos.UseVisualStyleBackColor = true;
+            this.rdbInactivos.CheckedChanged += new System.EventHandler(this.rdbInactivos_CheckedChanged);
             // 
             // txtNombre
             // 
