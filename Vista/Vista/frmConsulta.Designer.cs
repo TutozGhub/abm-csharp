@@ -221,8 +221,6 @@
             this.Name = "frmConsulta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consulta";
-            this.Enter += new System.EventHandler(this.frmConsulta_Enter);
-            this.Validated += new System.EventHandler(this.frmConsulta_Validated);
             ((System.ComponentModel.ISupportInitialize)(this.dtgProductos)).EndInit();
             this.grpFiltros.ResumeLayout(false);
             this.grpFiltros.PerformLayout();

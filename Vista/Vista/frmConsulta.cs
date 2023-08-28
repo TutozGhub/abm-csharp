@@ -25,13 +25,8 @@ namespace Vista
             dtgProductos.AllowUserToResizeRows = false;
             dtgProductos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             u.refreshDtg(dtgProductos);
-            u.cargarCombo(cmbTalle, "talle", "id_talle", "talle");
-            u.cargarCombo(cmbTipo, "tipo", "id_tipo", "tipo");
-        }
-
-        private void rdbActivos_CheckedChanged(object sender, EventArgs e)
-        {
-
+            u.cargarCombo(cmbTalle, "talle", "id_talle", "talle", true);
+            u.cargarCombo(cmbTipo, "tipo", "id_tipo", "tipo", true);
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -46,18 +41,9 @@ namespace Vista
             frm.ShowDialog();
         }
 
-        private void frmConsulta_Enter(object sender, EventArgs e)
-        {
-            u.refreshDtg(dtgProductos);
-        }
-
         private void btnFiltrar_Click(object sender, EventArgs e)
         {
-        }
 
-        private void frmConsulta_Validated(object sender, EventArgs e)
-        {
-            u.refreshDtg(dtgProductos);
         }
     }
 }

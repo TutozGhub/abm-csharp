@@ -17,11 +17,19 @@ namespace Vista
             dtg.DataSource = "";
             dtg.DataSource = CN_abm.productosCarga();
         }
-        public void cargarCombo(ComboBox cmb, string tabla, string campoId, string campoName)
+        public void cargarCombo(ComboBox cmb, string tabla, string campoId, string campoName, bool filtro = false)
         {
-            cmb.DataSource = CN_abm.comboCarga(tabla);
+            if (filtro)
+            {
+                cmb.DataSource = CN_abm.comboCarga(tabla, "Ninguno");
+            }
+            else
+            {
+                cmb.DataSource = CN_abm.comboCarga(tabla);
+            }
             cmb.DisplayMember = campoName;
             cmb.ValueMember = campoId;
+            cmb.SelectedValue = -1;
         }
     }
 }

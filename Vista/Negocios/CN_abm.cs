@@ -40,9 +40,21 @@ namespace Negocios
 
             string query =
                 "SELECT " + "* " +
-                "FROM " + tabla +";";
+                "FROM " + tabla + ";";
 
             return consultas.select(query);
+        }
+        public static DataTable comboCarga(string tabla, string extra)
+        {
+            CD_Consultas consultas = new CD_Consultas();
+
+            string query =
+                "SELECT " + "* " +
+                "FROM " + tabla + ";";
+            DataTable dt = consultas.select(query);
+            DataRow dr = dt.NewRow();
+            dt.Rows.Add(new Object[] { -1, extra });
+            return dt;
         }
     }
 }
