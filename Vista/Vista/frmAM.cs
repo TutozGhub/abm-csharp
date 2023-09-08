@@ -23,6 +23,12 @@ namespace Vista
         int tipo, talle, marca, stock;
         string nombre;
         double precioCompra, precioVenta;
+
+        private void pctLogo_Click(object sender, EventArgs e)
+        {
+
+        }
+
         DataGridView dtg;
 
         public frmAM(ref DataGridView _dtg)

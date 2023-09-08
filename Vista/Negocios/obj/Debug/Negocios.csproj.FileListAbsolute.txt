@@ -1,8 +1,6 @@
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Negocios\bin\Debug\Negocios.dll
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Negocios\bin\Debug\Negocios.pdb
-D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Negocios\bin\Debug\Comun.dll
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Negocios\bin\Debug\Datos.dll
-D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Negocios\bin\Debug\Comun.pdb
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Negocios\bin\Debug\Datos.pdb
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache

@@ -1,9 +1,6 @@
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Datos\bin\Debug\Datos.dll
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Datos\bin\Debug\Datos.pdb
-D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Datos\bin\Debug\Comun.dll
-D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Datos\bin\Debug\Comun.pdb
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
-D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Datos\obj\Debug\Datos.csproj.CopyComplete
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Datos\obj\Debug\Datos.dll
 D:\Users\Tutoz\Desktop\Portfolio\Proyectos\abm-csharp\Vista\Datos\obj\Debug\Datos.pdb

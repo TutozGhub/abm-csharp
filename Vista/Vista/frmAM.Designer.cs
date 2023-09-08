@@ -47,7 +47,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(50, 97);
+            this.txtNombre.Location = new System.Drawing.Point(43, 88);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(171, 20);
             this.txtNombre.TabIndex = 1;
@@ -56,21 +56,21 @@
             // 
             this.cmbTalle.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTalle.FormattingEnabled = true;
-            this.cmbTalle.Location = new System.Drawing.Point(50, 137);
+            this.cmbTalle.Location = new System.Drawing.Point(43, 128);
             this.cmbTalle.Name = "cmbTalle";
             this.cmbTalle.Size = new System.Drawing.Size(171, 21);
             this.cmbTalle.TabIndex = 2;
             // 
             // txtPrecioCompra
             // 
-            this.txtPrecioCompra.Location = new System.Drawing.Point(50, 217);
+            this.txtPrecioCompra.Location = new System.Drawing.Point(43, 208);
             this.txtPrecioCompra.Name = "txtPrecioCompra";
             this.txtPrecioCompra.Size = new System.Drawing.Size(171, 20);
             this.txtPrecioCompra.TabIndex = 4;
             // 
             // txtPrecioVenta
             // 
-            this.txtPrecioVenta.Location = new System.Drawing.Point(50, 256);
+            this.txtPrecioVenta.Location = new System.Drawing.Point(43, 247);
             this.txtPrecioVenta.Name = "txtPrecioVenta";
             this.txtPrecioVenta.Size = new System.Drawing.Size(171, 20);
             this.txtPrecioVenta.TabIndex = 5;
@@ -79,14 +79,14 @@
             // 
             this.cmbMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMarca.FormattingEnabled = true;
-            this.cmbMarca.Location = new System.Drawing.Point(50, 177);
+            this.cmbMarca.Location = new System.Drawing.Point(43, 168);
             this.cmbMarca.Name = "cmbMarca";
             this.cmbMarca.Size = new System.Drawing.Size(171, 21);
             this.cmbMarca.TabIndex = 3;
             // 
             // txtStock
             // 
-            this.txtStock.Location = new System.Drawing.Point(50, 296);
+            this.txtStock.Location = new System.Drawing.Point(43, 287);
             this.txtStock.Name = "txtStock";
             this.txtStock.Size = new System.Drawing.Size(171, 20);
             this.txtStock.TabIndex = 6;
@@ -95,7 +95,7 @@
             // 
             this.cmbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTipo.FormattingEnabled = true;
-            this.cmbTipo.Location = new System.Drawing.Point(50, 58);
+            this.cmbTipo.Location = new System.Drawing.Point(43, 49);
             this.cmbTipo.Name = "cmbTipo";
             this.cmbTipo.Size = new System.Drawing.Size(171, 21);
             this.cmbTipo.TabIndex = 0;
@@ -105,7 +105,7 @@
             this.lblNombre.AutoSize = true;
             this.lblNombre.BackColor = System.Drawing.Color.Transparent;
             this.lblNombre.ForeColor = System.Drawing.Color.White;
-            this.lblNombre.Location = new System.Drawing.Point(47, 81);
+            this.lblNombre.Location = new System.Drawing.Point(40, 72);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(44, 13);
             this.lblNombre.TabIndex = 8;
@@ -116,7 +116,7 @@
             this.lblTipo.AutoSize = true;
             this.lblTipo.BackColor = System.Drawing.Color.Transparent;
             this.lblTipo.ForeColor = System.Drawing.Color.White;
-            this.lblTipo.Location = new System.Drawing.Point(47, 42);
+            this.lblTipo.Location = new System.Drawing.Point(40, 33);
             this.lblTipo.Name = "lblTipo";
             this.lblTipo.Size = new System.Drawing.Size(28, 13);
             this.lblTipo.TabIndex = 9;
@@ -127,7 +127,7 @@
             this.lblTalle.AutoSize = true;
             this.lblTalle.BackColor = System.Drawing.Color.Transparent;
             this.lblTalle.ForeColor = System.Drawing.Color.White;
-            this.lblTalle.Location = new System.Drawing.Point(47, 121);
+            this.lblTalle.Location = new System.Drawing.Point(40, 112);
             this.lblTalle.Name = "lblTalle";
             this.lblTalle.Size = new System.Drawing.Size(30, 13);
             this.lblTalle.TabIndex = 10;
@@ -138,7 +138,7 @@
             this.lblMarca.AutoSize = true;
             this.lblMarca.BackColor = System.Drawing.Color.Transparent;
             this.lblMarca.ForeColor = System.Drawing.Color.White;
-            this.lblMarca.Location = new System.Drawing.Point(47, 161);
+            this.lblMarca.Location = new System.Drawing.Point(40, 152);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(37, 13);
             this.lblMarca.TabIndex = 11;
@@ -149,7 +149,7 @@
             this.lblPrecioCompra.AutoSize = true;
             this.lblPrecioCompra.BackColor = System.Drawing.Color.Transparent;
             this.lblPrecioCompra.ForeColor = System.Drawing.Color.White;
-            this.lblPrecioCompra.Location = new System.Drawing.Point(47, 201);
+            this.lblPrecioCompra.Location = new System.Drawing.Point(40, 192);
             this.lblPrecioCompra.Name = "lblPrecioCompra";
             this.lblPrecioCompra.Size = new System.Drawing.Size(90, 13);
             this.lblPrecioCompra.TabIndex = 12;
@@ -160,7 +160,7 @@
             this.lblPrecioVenta.AutoSize = true;
             this.lblPrecioVenta.BackColor = System.Drawing.Color.Transparent;
             this.lblPrecioVenta.ForeColor = System.Drawing.Color.White;
-            this.lblPrecioVenta.Location = new System.Drawing.Point(47, 240);
+            this.lblPrecioVenta.Location = new System.Drawing.Point(40, 231);
             this.lblPrecioVenta.Name = "lblPrecioVenta";
             this.lblPrecioVenta.Size = new System.Drawing.Size(82, 13);
             this.lblPrecioVenta.TabIndex = 13;
@@ -171,7 +171,7 @@
             this.lblStock.AutoSize = true;
             this.lblStock.BackColor = System.Drawing.Color.Transparent;
             this.lblStock.ForeColor = System.Drawing.Color.White;
-            this.lblStock.Location = new System.Drawing.Point(47, 279);
+            this.lblStock.Location = new System.Drawing.Point(40, 270);
             this.lblStock.Name = "lblStock";
             this.lblStock.Size = new System.Drawing.Size(35, 13);
             this.lblStock.TabIndex = 14;
@@ -182,7 +182,7 @@
             this.btnAceptar.BackColor = System.Drawing.Color.Black;
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
-            this.btnAceptar.Location = new System.Drawing.Point(178, 344);
+            this.btnAceptar.Location = new System.Drawing.Point(148, 341);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(93, 31);
             this.btnAceptar.TabIndex = 15;
@@ -196,7 +196,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Vista.Properties.Resources.Fondo;
-            this.ClientSize = new System.Drawing.Size(283, 387);
+            this.ClientSize = new System.Drawing.Size(253, 393);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.lblStock);
             this.Controls.Add(this.lblPrecioVenta);

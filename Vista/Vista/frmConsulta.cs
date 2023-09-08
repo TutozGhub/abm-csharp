@@ -67,8 +67,8 @@ namespace Vista
         {
             activo = true;
             btnEliminar.Text = "Eliminar";
-            btnAgregar.Enabled = true;
-            btnModificar.Enabled = true;
+            btnAgregar.Visible = true;
+            btnModificar.Visible = true;
             u.refreshDtg(dtgProductos, activo);
         }
 
@@ -76,8 +76,8 @@ namespace Vista
         {
             activo = false;
             btnEliminar.Text = "Reactivar";
-            btnAgregar.Enabled = false;
-            btnModificar.Enabled = false;
+            btnAgregar.Visible = false;
+            btnModificar.Visible = false;
             u.refreshDtg(dtgProductos, activo);
         }
 

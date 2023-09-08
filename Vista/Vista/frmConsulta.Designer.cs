@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmConsulta));
             this.dtgProductos = new System.Windows.Forms.DataGridView();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
@@ -44,8 +45,10 @@
             this.lblTipo = new System.Windows.Forms.Label();
             this.lblStock = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
+            this.pctLogo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtgProductos)).BeginInit();
             this.grpFiltros.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // dtgProductos
@@ -234,6 +237,18 @@
             this.lblNombre.TabIndex = 10;
             this.lblNombre.Text = "Nombre";
             // 
+            // pctLogo
+            // 
+            this.pctLogo.BackColor = System.Drawing.Color.Transparent;
+            this.pctLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo.Image")));
+            this.pctLogo.InitialImage = null;
+            this.pctLogo.Location = new System.Drawing.Point(16, 14);
+            this.pctLogo.Name = "pctLogo";
+            this.pctLogo.Size = new System.Drawing.Size(120, 120);
+            this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctLogo.TabIndex = 11;
+            this.pctLogo.TabStop = false;
+            // 
             // frmConsulta
             // 
             this.AcceptButton = this.btnFiltrar;
@@ -242,6 +257,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::Vista.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(914, 444);
+            this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.grpFiltros);
             this.Controls.Add(this.rdbInactivos);
             this.Controls.Add(this.rdbActivos);
@@ -251,13 +267,15 @@
             this.Controls.Add(this.dtgProductos);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmConsulta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Consulta";
+            this.Text = "Inventario de productos";
             ((System.ComponentModel.ISupportInitialize)(this.dtgProductos)).EndInit();
             this.grpFiltros.ResumeLayout(false);
             this.grpFiltros.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -281,5 +299,6 @@
         private System.Windows.Forms.Label lblStock;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Button btnFiltrar;
+        private System.Windows.Forms.PictureBox pctLogo;
     }
 }
