@@ -1,5 +1,4 @@
-﻿using Comun;
-using Negocios;
+﻿using Negocios;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

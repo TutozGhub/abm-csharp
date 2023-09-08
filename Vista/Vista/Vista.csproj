@@ -91,10 +91,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Comun\Comun.csproj">
-      <Project>{6fbd9b1f-0bb9-4ff5-a7b6-98c88853362c}</Project>
-      <Name>Comun</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Negocios\Negocios.csproj">
       <Project>{f9a0d8ef-aff7-45ed-961a-e48ab8d9da30}</Project>
       <Name>Negocios</Name>
