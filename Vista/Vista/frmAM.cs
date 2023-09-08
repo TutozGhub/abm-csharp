@@ -25,22 +25,32 @@ namespace Vista
         double precioCompra, precioVenta;
         DataGridView dtg;
 
-        public frmAM(string _modo, ref DataGridView _dtg)
+        public frmAM(ref DataGridView _dtg)
         {
             InitializeComponent();
-            modo = _modo;
+            modo = "add";
             dtg = _dtg;
             u.cargarCombo(cmbMarca, "marca", "id_marca", "marca");
             u.cargarCombo(cmbTalle, "talle", "id_talle", "talle");
             u.cargarCombo(cmbTipo, "tipo", "id_tipo", "tipo");
-            if (_modo == "add")
-            {
-                this.Text = "Agregar producto";
-            }
-            else if (_modo == "mod")
-            {
-                this.Text = "Modificar producto";
-            }
+            this.Text = "Agregar producto";
+        }
+        public frmAM(ref DataGridView _dtg, (int,string,int,int, string, string, string) datos)
+        {
+            InitializeComponent();
+            modo = "mod";
+            dtg = _dtg;
+            u.cargarCombo(cmbMarca, "marca", "id_marca", "marca");
+            u.cargarCombo(cmbTalle, "talle", "id_talle", "talle");
+            u.cargarCombo(cmbTipo, "tipo", "id_tipo", "tipo");
+            this.Text = "Agregar producto";
+            cmbTipo.SelectedValue = datos.Item1;
+            txtNombre.Text = datos.Item2;
+            cmbTalle.SelectedValue = datos.Item3;
+            cmbMarca.SelectedValue = datos.Item4;
+            txtPrecioCompra.Text = datos.Item5.ToString();
+            txtPrecioVenta.Text = datos.Item6.ToString();
+            txtStock.Text = datos.Item7.ToString();
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)

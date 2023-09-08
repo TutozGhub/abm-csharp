@@ -44,7 +44,7 @@ namespace Negocios
         public static DataTable productosCarga(bool activo, string nombre = null, int? stock = null, int? tipo = null, int? talle = null)
         {
             string query =
-                "SELECT id_producto, nombre as Nombre, tipo as Tipo, talle as Talle, marca as Marca, precio_compra as [Precio de compra], precio_venta as [Precio de Venta], stock as Stock\n" +
+                "SELECT id_producto, nombre as Nombre, tipo as Tipo, talle as Talle, marca as Marca, precio_compra as [Precio de compra], precio_venta as [Precio de Venta], stock as Stock, ti.id_tipo, ta.id_talle, ma.id_marca\n" +
                 "FROM ((productos p INNER JOIN talle ta ON p.id_talle = ta.id_talle)\n" +
                 "LEFT JOIN tipo ti ON p.id_tipo = ti.id_tipo)\n" +
                 "LEFT JOIN marca ma ON p.id_marca = ma.id_marca\n" +

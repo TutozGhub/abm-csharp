@@ -19,6 +19,7 @@ namespace Vista
         UtilidadesForm u = new UtilidadesForm();
         public static bool activo = true;
         public static int? idProducto = null;
+        public static int? rowIndex = null;
         public frmConsulta()
         {
             InitializeComponent();
@@ -35,14 +36,26 @@ namespace Vista
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            Form frm = new frmAM("add", ref dtgProductos);
+            Form frm = new frmAM(ref dtgProductos);
             frm.ShowDialog();
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            Form frm = new frmAM("mod", ref dtgProductos);
-            frm.ShowDialog();
+            if (rowIndex != null)
+            {
+                int _tipo = (int)dtgProductos.Rows[(int)rowIndex].Cells["id_tipo"].Value;
+                string _nombre = dtgProductos.Rows[(int)rowIndex].Cells["nombre"].Value.ToString();
+                int _talle = (int)dtgProductos.Rows[(int)rowIndex].Cells["id_talle"].Value;
+                int _marca = (int)dtgProductos.Rows[(int)rowIndex].Cells["id_marca"].Value;
+                string _pc = dtgProductos.Rows[(int)rowIndex].Cells[5].Value.ToString();
+                string _pv = dtgProductos.Rows[(int)rowIndex].Cells[6].Value.ToString();
+                string _stock = dtgProductos.Rows[(int)rowIndex].Cells["stock"].Value.ToString();
+
+                (int, string, int, int, string, string, string) datos = ( _tipo, _nombre, _talle, _marca, _pc, _pv, _stock );
+                Form frm = new frmAM(ref dtgProductos, datos);
+                frm.ShowDialog();
+            }
         }
 
         private void btnFiltrar_Click(object sender, EventArgs e)
@@ -78,6 +91,8 @@ namespace Vista
         private void dtgProductos_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
             idProducto = Convert.ToInt32(dtgProductos.Rows[e.RowIndex].Cells[0].Value);
+            rowIndex = e.RowIndex;
+
         }
     }
 }

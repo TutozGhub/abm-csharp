@@ -17,6 +17,9 @@ namespace Vista
             dtg.DataSource = "";
             dtg.DataSource = CN_abm.productosCarga(activo);
             dtg.Columns[0].Visible = false;
+            dtg.Columns[8].Visible = false;
+            dtg.Columns[9].Visible = false;
+            dtg.Columns[10].Visible = false;
         }
         public void refreshDtg(DataGridView dtg, bool activo, string nombre, string stock, int tipo, int talle)
         {
@@ -45,6 +48,9 @@ namespace Vista
             dtg.DataSource = "";
             dtg.DataSource = CN_abm.productosCarga(activo, nombre, _stock, _tipo, _talle);
             dtg.Columns[0].Visible = false;
+            dtg.Columns[8].Visible = false;
+            dtg.Columns[9].Visible = false;
+            dtg.Columns[10].Visible = false;
         }
         public void cargarCombo(ComboBox cmb, string tabla, string campoId, string campoName, bool filtro = false)
         {
