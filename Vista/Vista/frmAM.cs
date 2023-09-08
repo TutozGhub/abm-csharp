@@ -43,7 +43,7 @@ namespace Vista
             u.cargarCombo(cmbMarca, "marca", "id_marca", "marca");
             u.cargarCombo(cmbTalle, "talle", "id_talle", "talle");
             u.cargarCombo(cmbTipo, "tipo", "id_tipo", "tipo");
-            this.Text = "Agregar producto";
+            this.Text = "Modificar producto";
             cmbTipo.SelectedValue = datos.Item1;
             txtNombre.Text = datos.Item2;
             cmbTalle.SelectedValue = datos.Item3;

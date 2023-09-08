@@ -50,6 +50,7 @@
             // 
             // dtgProductos
             // 
+            this.dtgProductos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dtgProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgProductos.Location = new System.Drawing.Point(146, 140);
             this.dtgProductos.Name = "dtgProductos";
@@ -59,56 +60,69 @@
             // 
             // btnAgregar
             // 
+            this.btnAgregar.BackColor = System.Drawing.Color.Black;
+            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregar.ForeColor = System.Drawing.Color.White;
             this.btnAgregar.Location = new System.Drawing.Point(31, 215);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(85, 23);
             this.btnAgregar.TabIndex = 1;
             this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnModificar
             // 
+            this.btnModificar.BackColor = System.Drawing.Color.Black;
+            this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModificar.ForeColor = System.Drawing.Color.White;
             this.btnModificar.Location = new System.Drawing.Point(31, 244);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(85, 23);
             this.btnModificar.TabIndex = 2;
             this.btnModificar.Text = "Modificar";
-            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.UseVisualStyleBackColor = false;
             this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnEliminar
             // 
+            this.btnEliminar.BackColor = System.Drawing.Color.Black;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.ForeColor = System.Drawing.Color.White;
             this.btnEliminar.Location = new System.Drawing.Point(31, 296);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(85, 23);
             this.btnEliminar.TabIndex = 3;
             this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // rdbActivos
             // 
             this.rdbActivos.AutoSize = true;
+            this.rdbActivos.BackColor = System.Drawing.Color.Transparent;
             this.rdbActivos.Checked = true;
+            this.rdbActivos.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.rdbActivos.Location = new System.Drawing.Point(740, 386);
             this.rdbActivos.Name = "rdbActivos";
             this.rdbActivos.Size = new System.Drawing.Size(60, 17);
             this.rdbActivos.TabIndex = 4;
             this.rdbActivos.TabStop = true;
             this.rdbActivos.Text = "Activos";
-            this.rdbActivos.UseVisualStyleBackColor = true;
+            this.rdbActivos.UseVisualStyleBackColor = false;
             this.rdbActivos.CheckedChanged += new System.EventHandler(this.rdbActivos_CheckedChanged);
             // 
             // rdbInactivos
             // 
             this.rdbInactivos.AutoSize = true;
+            this.rdbInactivos.BackColor = System.Drawing.Color.Transparent;
+            this.rdbInactivos.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.rdbInactivos.Location = new System.Drawing.Point(806, 386);
             this.rdbInactivos.Name = "rdbInactivos";
             this.rdbInactivos.Size = new System.Drawing.Size(68, 17);
             this.rdbInactivos.TabIndex = 5;
             this.rdbInactivos.Text = "Inactivos";
-            this.rdbInactivos.UseVisualStyleBackColor = true;
+            this.rdbInactivos.UseVisualStyleBackColor = false;
             this.rdbInactivos.CheckedChanged += new System.EventHandler(this.rdbInactivos_CheckedChanged);
             // 
             // txtNombre
@@ -145,6 +159,7 @@
             // 
             // grpFiltros
             // 
+            this.grpFiltros.BackColor = System.Drawing.Color.Transparent;
             this.grpFiltros.Controls.Add(this.btnFiltrar);
             this.grpFiltros.Controls.Add(this.lblTalle);
             this.grpFiltros.Controls.Add(this.lblTipo);
@@ -154,6 +169,7 @@
             this.grpFiltros.Controls.Add(this.cmbTalle);
             this.grpFiltros.Controls.Add(this.txtNombre);
             this.grpFiltros.Controls.Add(this.txtStock);
+            this.grpFiltros.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.grpFiltros.Location = new System.Drawing.Point(226, 31);
             this.grpFiltros.Name = "grpFiltros";
             this.grpFiltros.Size = new System.Drawing.Size(574, 83);
@@ -163,17 +179,22 @@
             // 
             // btnFiltrar
             // 
+            this.btnFiltrar.BackColor = System.Drawing.Color.Black;
+            this.btnFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFiltrar.ForeColor = System.Drawing.Color.White;
             this.btnFiltrar.Location = new System.Drawing.Point(524, 12);
             this.btnFiltrar.Name = "btnFiltrar";
             this.btnFiltrar.Size = new System.Drawing.Size(44, 23);
             this.btnFiltrar.TabIndex = 11;
             this.btnFiltrar.Text = "Filtrar";
-            this.btnFiltrar.UseVisualStyleBackColor = true;
+            this.btnFiltrar.UseVisualStyleBackColor = false;
             this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
             // 
             // lblTalle
             // 
             this.lblTalle.AutoSize = true;
+            this.lblTalle.BackColor = System.Drawing.Color.Transparent;
+            this.lblTalle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTalle.Location = new System.Drawing.Point(398, 28);
             this.lblTalle.Name = "lblTalle";
             this.lblTalle.Size = new System.Drawing.Size(30, 13);
@@ -183,6 +204,8 @@
             // lblTipo
             // 
             this.lblTipo.AutoSize = true;
+            this.lblTipo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTipo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTipo.Location = new System.Drawing.Point(271, 28);
             this.lblTipo.Name = "lblTipo";
             this.lblTipo.Size = new System.Drawing.Size(28, 13);
@@ -192,6 +215,8 @@
             // lblStock
             // 
             this.lblStock.AutoSize = true;
+            this.lblStock.BackColor = System.Drawing.Color.Transparent;
+            this.lblStock.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblStock.Location = new System.Drawing.Point(144, 28);
             this.lblStock.Name = "lblStock";
             this.lblStock.Size = new System.Drawing.Size(35, 13);
@@ -201,6 +226,8 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
+            this.lblNombre.BackColor = System.Drawing.Color.Transparent;
+            this.lblNombre.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblNombre.Location = new System.Drawing.Point(17, 28);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(44, 13);
@@ -212,6 +239,8 @@
             this.AcceptButton = this.btnFiltrar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::Vista.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(914, 444);
             this.Controls.Add(this.grpFiltros);
             this.Controls.Add(this.rdbInactivos);
@@ -220,6 +249,7 @@
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dtgProductos);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "frmConsulta";

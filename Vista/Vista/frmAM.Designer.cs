@@ -103,6 +103,8 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
+            this.lblNombre.BackColor = System.Drawing.Color.Transparent;
+            this.lblNombre.ForeColor = System.Drawing.Color.White;
             this.lblNombre.Location = new System.Drawing.Point(47, 81);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(44, 13);
@@ -112,6 +114,8 @@
             // lblTipo
             // 
             this.lblTipo.AutoSize = true;
+            this.lblTipo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTipo.ForeColor = System.Drawing.Color.White;
             this.lblTipo.Location = new System.Drawing.Point(47, 42);
             this.lblTipo.Name = "lblTipo";
             this.lblTipo.Size = new System.Drawing.Size(28, 13);
@@ -121,6 +125,8 @@
             // lblTalle
             // 
             this.lblTalle.AutoSize = true;
+            this.lblTalle.BackColor = System.Drawing.Color.Transparent;
+            this.lblTalle.ForeColor = System.Drawing.Color.White;
             this.lblTalle.Location = new System.Drawing.Point(47, 121);
             this.lblTalle.Name = "lblTalle";
             this.lblTalle.Size = new System.Drawing.Size(30, 13);
@@ -130,6 +136,8 @@
             // lblMarca
             // 
             this.lblMarca.AutoSize = true;
+            this.lblMarca.BackColor = System.Drawing.Color.Transparent;
+            this.lblMarca.ForeColor = System.Drawing.Color.White;
             this.lblMarca.Location = new System.Drawing.Point(47, 161);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(37, 13);
@@ -139,6 +147,8 @@
             // lblPrecioCompra
             // 
             this.lblPrecioCompra.AutoSize = true;
+            this.lblPrecioCompra.BackColor = System.Drawing.Color.Transparent;
+            this.lblPrecioCompra.ForeColor = System.Drawing.Color.White;
             this.lblPrecioCompra.Location = new System.Drawing.Point(47, 201);
             this.lblPrecioCompra.Name = "lblPrecioCompra";
             this.lblPrecioCompra.Size = new System.Drawing.Size(90, 13);
@@ -148,6 +158,8 @@
             // lblPrecioVenta
             // 
             this.lblPrecioVenta.AutoSize = true;
+            this.lblPrecioVenta.BackColor = System.Drawing.Color.Transparent;
+            this.lblPrecioVenta.ForeColor = System.Drawing.Color.White;
             this.lblPrecioVenta.Location = new System.Drawing.Point(47, 240);
             this.lblPrecioVenta.Name = "lblPrecioVenta";
             this.lblPrecioVenta.Size = new System.Drawing.Size(82, 13);
@@ -157,6 +169,8 @@
             // lblStock
             // 
             this.lblStock.AutoSize = true;
+            this.lblStock.BackColor = System.Drawing.Color.Transparent;
+            this.lblStock.ForeColor = System.Drawing.Color.White;
             this.lblStock.Location = new System.Drawing.Point(47, 279);
             this.lblStock.Name = "lblStock";
             this.lblStock.Size = new System.Drawing.Size(35, 13);
@@ -165,12 +179,15 @@
             // 
             // btnAceptar
             // 
+            this.btnAceptar.BackColor = System.Drawing.Color.Black;
+            this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAceptar.ForeColor = System.Drawing.Color.White;
             this.btnAceptar.Location = new System.Drawing.Point(178, 344);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(93, 31);
             this.btnAceptar.TabIndex = 15;
             this.btnAceptar.Text = "Aceptar";
-            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.UseVisualStyleBackColor = false;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // frmAM
@@ -178,6 +195,7 @@
             this.AcceptButton = this.btnAceptar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Vista.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(283, 387);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.lblStock);
